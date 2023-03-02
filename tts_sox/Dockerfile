@@ -4,7 +4,7 @@ RUN apt -y update \
     &&  DEBIAN_FRONTEND=noninteractive apt install -y \
         build-essential \
         cmake \
-        libksba8=1.3.5-2ubuntu0.18.04.1 \
+        libksba8=1.3.5-2ubuntu0.18.04.2 \
         linux-libc-dev=4.15.0-200.211\
         libprotobuf-dev \
         libpq-dev \
