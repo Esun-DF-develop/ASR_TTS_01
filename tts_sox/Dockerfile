@@ -1,10 +1,5 @@
 FROM nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
 
-RUN apt-get update
-RUN apt-get -y install sox
-RUN apt-get -y install gfortran
-RUN apt-get -y install libopenblas-dev liblapack-dev libatlas-base-dev libblas-dev
-
 RUN apt -y update \ 
     &&  DEBIAN_FRONTEND=noninteractive apt install -y \
         build-essential \
@@ -23,7 +18,11 @@ RUN apt -y update \
         libxrender-dev \
         tzdata \
         locales
-
+        
+RUN apt-get update
+RUN apt-get -y install sox
+RUN apt-get -y install gfortran
+RUN apt-get -y install libopenblas-dev liblapack-dev libatlas-base-dev libblas-dev
 RUN pip3 install pip==21.2.1
 
 WORKDIR /usr/local/cuda/lib64/
