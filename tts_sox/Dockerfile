@@ -5,7 +5,7 @@ RUN apt -y update \
         build-essential \
         cmake \
         libksba8=1.3.5-2ubuntu0.18.04.2 \
-        linux-libc-dev=4.15.0-200.211\
+        linux-libc-dev=4.15.0-20.21\
         libprotobuf-dev \
         libpq-dev \
         protobuf-compiler \
