@@ -33,7 +33,7 @@ RUN apt -y update \
         libkrb5-26-heimdal=7.5.0+dfsg-1ubuntu0.4 \
         libpam-runtime=1.1.8-3.6ubuntu2.18.04.6 \
         libpam0g=1.1.8-3.6ubuntu2.18.04.6 \
-        libroken18-heimdal=libroken18-heimdal \
+        libroken18-heimdal=7.5.0+dfsg-1ubuntu0.4 \
         libsqlite3-0=3.22.0-1ubuntu0.7 \
         libss2=1.44.1-1ubuntu1.4 \
         libsystemd0=237-3ubuntu10.53 \
