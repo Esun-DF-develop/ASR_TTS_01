@@ -20,7 +20,7 @@ RUN apt -y update \
         libgmp10=2:6.1.2+dfsg-2ubuntu0.1\
         libgnutls30=3.5.18-1ubuntu1.6\
         libgssapi3-heimdal=7.5.0+dfsg-1ubuntu0.4\
-        libpam-modules=1.1.8-3.6ubuntu2.18.04.4\
+        libpam-modules=1.1.8-3.6ubuntu2.18.04.6\
         libpcre3=2:8.39-9ubuntu0.1\
         libperl5.26=5.26.1-6ubuntu0.6\
         perl=5.26.1-6ubuntu0.6\
