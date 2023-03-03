@@ -5,9 +5,8 @@ RUN apt -y update \
         build-essential \
         cmake \
         libksba8=1.3.5-2ubuntu0.18.04.2 \
-        linux-libc-dev=4.15.0-200.211\
-        libssl1.1=1.1.1-1ubuntu2.1~18.04.21\
         linux-libc-dev=4.15.0-202.213\
+        libssl1.1=1.1.1-1ubuntu2.1~18.04.21\
         openssl=1.1.1-1ubuntu2.1~18.04.21\
         libprotobuf-dev \
         libpq-dev \
