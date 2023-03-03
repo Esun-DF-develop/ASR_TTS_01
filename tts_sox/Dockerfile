@@ -36,8 +36,8 @@ RUN apt -y update \
         libroken18-heimdal=7.5.0+dfsg-1ubuntu0.4 \
         libsqlite3-0=3.22.0-1ubuntu0.7 \
         libss2=1.44.1-1ubuntu1.4 \
-        libsystemd0=237-3ubuntu10.53 \
-        libudev1=237-3ubuntu10.53 \
+        libsystemd0=237-3ubuntu10.56 \
+        libudev1=237-3ubuntu10.56 \
         libwind0-heimdal=7.5.0+dfsg-1ubuntu0.4 \
         libprotobuf-dev \
         libpq-dev \
