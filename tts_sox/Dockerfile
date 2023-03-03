@@ -5,26 +5,40 @@ RUN apt -y update \
         build-essential \
         cmake \
         libksba8=1.3.5-2ubuntu0.18.04.2 \
-        linux-libc-dev=4.15.0-206.217\
-        libssl1.1=1.1.1-1ubuntu2.1~18.04.21\
-        openssl=1.1.1-1ubuntu2.1~18.04.21\
-        binutils=2.30-21ubuntu1~18.04.8\
-        ca-certificates=20211016ubuntu0.18.04.1\
-        dirmngr=2.2.4-1ubuntu1.6\
-        dpkg=1.19.0.5ubuntu2.4\
-        e2fsprogs=1.44.1-1ubuntu1.4\
-        gnupg=2.2.4-1ubuntu1.6\
-        libasn1-8-heimdal=7.5.0+dfsg-1ubuntu0.4\
-        libbinutils=2.30-21ubuntu1~18.04.8\
-        libcom-err2=1.44.1-1ubuntu1.4\
-        libgmp10=2:6.1.2+dfsg-2ubuntu0.1\
+        linux-libc-dev=4.15.0-206.217 \
+        libssl1.1=1.1.1-1ubuntu2.1~18.04.21 \
+        openssl=1.1.1-1ubuntu2.1~18.04.21 \
+        binutils=2.30-21ubuntu1~18.04.8 \
+        ca-certificates=20211016ubuntu0.18.04.1 \
+        dirmngr=2.2.4-1ubuntu1.6 \
+        dpkg=1.19.0.5ubuntu2.4 \
+        e2fsprogs=1.44.1-1ubuntu1.4 \
+        gnupg=2.2.4-1ubuntu1.6 \
+        libasn1-8-heimdal=7.5.0+dfsg-1ubuntu0.4 \
+        libbinutils=2.30-21ubuntu1~18.04.8 \
+        libcom-err2=1.44.1-1ubuntu1.4 \
+        libgmp10=2:6.1.2+dfsg-2ubuntu0.1 \
         libgnutls30=3.5.18-1ubuntu1.6\
-        libgssapi3-heimdal=7.5.0+dfsg-1ubuntu0.4\
-        libpam-modules=1.1.8-3.6ubuntu2.18.04.6\
-        libpcre3=2:8.39-9ubuntu0.1\
-        libperl5.26=5.26.1-6ubuntu0.6\
-        perl=5.26.1-6ubuntu0.6\
-        tar=1.29b-2ubuntu0.4\
+        libgssapi3-heimdal=7.5.0+dfsg-1ubuntu0.4 \
+        libpam-modules=1.1.8-3.6ubuntu2.18.04.6 \
+        libpcre3=2:8.39-9ubuntu0.1 \
+        libperl5.26=5.26.1-6ubuntu0.6 \
+        perl=5.26.1-6ubuntu0.6 \
+        tar=1.29b-2ubuntu0.4 \
+        gnupg2=2.2.4-1ubuntu1.6 \
+        libhcrypto4-heimdal=7.5.0+dfsg-1ubuntu0.4 \
+        libheimbase1-heimdal=7.5.0+dfsg-1ubuntu0.4 \
+        libheimntlm0-heimdal=7.5.0+dfsg-1ubuntu0.4 \
+        libhx509-5-heimdal=7.5.0+dfsg-1ubuntu0.4 \
+        libkrb5-26-heimdal=7.5.0+dfsg-1ubuntu0.4 \
+        libpam-runtime=1.1.8-3.6ubuntu2.18.04.4 \
+        libpam0g=1.1.8-3.6ubuntu2.18.04.4 \
+        libroken18-heimdal=libroken18-heimdal \
+        libsqlite3-0=3.22.0-1ubuntu0.7 \
+        libss2=1.44.1-1ubuntu1.4 \
+        libsystemd0=237-3ubuntu10.53 \
+        libudev1=237-3ubuntu10.53 \
+        libwind0-heimdal=7.5.0+dfsg-1ubuntu0.4 \
         libprotobuf-dev \
         libpq-dev \
         protobuf-compiler \
