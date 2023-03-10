@@ -17,12 +17,12 @@ jobs:
       - name: Build an image from Dockerfile
         id: buildx
         run: |
-          docker build -t docker.io/juanwei/tts_sox:${{ github.sha }} ./tts_sox
+          docker build -t docker.io/juanwei/tts_python:${{ github.sha }} ./airflow_tts
  
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: 'docker.io/juanwei/tts_sox:${{ github.sha }}'
+          image-ref: 'docker.io/juanwei/tts_python:${{ github.sha }}'
           format: 'table'
           exit-code: '1'
           ignore-unfixed: true
