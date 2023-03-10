@@ -3,7 +3,7 @@ RUN apt -y update \
     && DEBIAN_FRONTEND=noninteractive apt install -y \
     build-essential \
     cmake \
-    libapr1=1.7.0-6+deb11u2
+    libapr1=1.7.0-8
     
 FROM python:3.7
 
