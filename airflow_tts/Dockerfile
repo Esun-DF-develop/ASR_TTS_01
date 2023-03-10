@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.2-base
+FROM nvidia/cuda:10.2-base-ubi8
 
 FROM python:3.7
 
