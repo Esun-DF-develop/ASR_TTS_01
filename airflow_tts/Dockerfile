@@ -69,17 +69,7 @@ RUN apt-get update && \
 
 
 COPY . .
-RUN pip3 install -U \
-    pip==21.2.1 \
-    Flask-AppBuilder==4.1.3 \
-    Mako==1.2.2 \
-    Werkzeug==2.2.3 \
-    certifi==2022.12.07 \
-    cryptography==39.0.1 \
-    flower==1.2.0 \
-    future==0.18.3 \
-    lxml==4.9.1 \
-    oauthlib==3.2.1 \
-    setuptools==65.5.1 \
-    wheel==0.38.1
-
+RUN pip3 install -U pip==21.2.1
+RUN pip3 uninstall -y Flask-AppBuilder
+RUN pip3 install Flask-AppBuilder==4.1.3
+    
