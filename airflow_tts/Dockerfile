@@ -81,6 +81,19 @@ RUN pip3 uninstall -y \
     oauthlib \
     setuptools \
     wheel
+RUN rm -rf \
+    /root/.local/lib/python3.7/site-packages/Flask-AppBuilder* \
+    /root/.local/lib/python3.7/site-packages/Mako* \
+    /root/.local/lib/python3.7/site-packages/Werkzeug* \
+    /root/.local/lib/python3.7/site-packages/certifi* \
+    /root/.local/lib/python3.7/site-packages/cryptography* \
+    /root/.local/lib/python3.7/site-packages/flower* \
+    /root/.local/lib/python3.7/site-packages/future* \
+    /root/.local/lib/python3.7/site-packages/lxml* \
+    /root/.local/lib/python3.7/site-packages/oauthlib* \
+    /root/.local/lib/python3.7/site-packages/setuptools* \
+    /root/.local/lib/python3.7/site-packages/wheel*
+
 
 RUN pip3 install -U pip==21.2.1
 RUN pip3 install setuptools==65.5.1
