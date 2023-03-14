@@ -69,8 +69,6 @@ RUN apt-get update && \
 
 
 COPY . .
-RUN pip3 install -U pip==21.2.1
-
 RUN pip3 uninstall -y \
     Flask-AppBuilder \
     Mako \
@@ -84,7 +82,9 @@ RUN pip3 uninstall -y \
     setuptools \
     wheel
 
-RUN pip3 install -U \
+RUN pip3 install -U pip==21.2.1
+RUN pip3 install setuptools==65.5.1
+RUN pip3 install \
     Flask-AppBuilder==4.1.3 \
     Mako==1.2.2 \
     Werkzeug==2.2.3 \
@@ -94,5 +94,5 @@ RUN pip3 install -U \
     future==0.18.3 \
     lxml==4.9.1 \
     oauthlib==3.2.1 \
-    setuptools==65.5.1 \
     wheel==0.38.1
+
