@@ -69,43 +69,6 @@ RUN apt-get update && \
 
 
 COPY . .
-RUN pip3 uninstall -y \
-    Flask-AppBuilder \
-    Mako \
-    Werkzeug \
-    certifi \
-    cryptography \
-    flower \
-    future \
-    lxml \
-    oauthlib \
-    setuptools \
-    wheel
-RUN rm -rf \
-    /root/.local/lib/python3.7/site-packages/Flask-AppBuilder* \
-    /root/.local/lib/python3.7/site-packages/Mako* \
-    /root/.local/lib/python3.7/site-packages/Werkzeug* \
-    /root/.local/lib/python3.7/site-packages/certifi* \
-    /root/.local/lib/python3.7/site-packages/cryptography* \
-    /root/.local/lib/python3.7/site-packages/flower* \
-    /root/.local/lib/python3.7/site-packages/future* \
-    /root/.local/lib/python3.7/site-packages/lxml* \
-    /root/.local/lib/python3.7/site-packages/oauthlib* \
-    /root/.local/lib/python3.7/site-packages/setuptools* \
-    /root/.local/lib/python3.7/site-packages/wheel*
-
-
 RUN pip3 install -U pip==21.2.1
 RUN pip3 install setuptools==65.5.1
-RUN pip3 install \
-    Flask-AppBuilder==4.1.3 \
-    Mako==1.2.2 \
-    Werkzeug==2.2.3 \
-    certifi==2022.12.07 \
-    cryptography==39.0.1 \
-    flower==1.2.0 \
-    future==0.18.3 \
-    lxml==4.9.1 \
-    oauthlib==3.2.1 \
-    wheel==0.38.1
 
