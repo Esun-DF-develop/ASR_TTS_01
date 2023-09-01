@@ -1,0 +1,10 @@
+sox
+gfortran
+libopenblas-dev
+liblapack-dev
+libatlas-base-dev
+libblas-dev
+gcc 
+g++ 
+cmake
+libpq-dev
